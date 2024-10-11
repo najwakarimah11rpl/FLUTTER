@@ -28,7 +28,7 @@ class Home extends StatelessWidget {
       body: Row(
         children: <Widget>[
           Expanded(
-            child: Image.asset('assets/image.png'), // Update this path to your image
+            child: Image.asset('assets/image.png'), // Ensure this path is correct in pubspec.yaml
             flex: 3,
           ),
           Expanded(
@@ -59,15 +59,17 @@ class Home extends StatelessWidget {
         ],
       ),
       bottomNavigationBar: Container(
-        padding: EdgeInsets.all(90.0),
+        padding: EdgeInsets.all(20.0), // Adjusted padding
         child: Column(
           mainAxisSize: MainAxisSize.min,
           children: <Widget>[
             Text('helo min'),
             Text('minggir,lu'),
-            FlatButton(
+            TextButton(
               onPressed: () {},
-              color: Colors.amber,
+              style: TextButton.styleFrom(
+                backgroundColor: Colors.amber,
+              ),
               child: Text('klik me'),
             ),
             Container(
