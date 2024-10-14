@@ -6,7 +6,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'new projek',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
@@ -28,7 +28,7 @@ class Home extends StatelessWidget {
       body: Row(
         children: <Widget>[
           Expanded(
-            child: Image.asset('assets/image.png'), // Ensure this path is correct in pubspec.yaml
+            child: Image.asset('d67531ad288eda11b87131e26fea0737.jpg'), // Ensure this path is correct in pubspec.yaml
             flex: 3,
           ),
           Expanded(
@@ -63,8 +63,8 @@ class Home extends StatelessWidget {
         child: Column(
           mainAxisSize: MainAxisSize.min,
           children: <Widget>[
-            Text('helo min'),
-            Text('minggir,lu'),
+            Text('halo min'),
+            Text('salim, admin'),
             TextButton(
               onPressed: () {},
               style: TextButton.styleFrom(
@@ -79,7 +79,7 @@ class Home extends StatelessWidget {
             ),
             IconButton(
               onPressed: () {
-                print('You clicked me, yaho!');
+                print('You clicked me');
               },
               icon: Icon(Icons.alternate_email),
               color: Colors.amber,
