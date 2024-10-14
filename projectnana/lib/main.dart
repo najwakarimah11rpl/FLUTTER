@@ -28,7 +28,7 @@ class Home extends StatelessWidget {
       body: Row(
         children: <Widget>[
           Expanded(
-            child: Image.asset('d67531ad288eda11b87131e26fea0737.jpg'), // Ensure this path is correct in pubspec.yaml
+            child: Image.asset('d67531ad288eda11b87131e26fea0737.jpg'), 
             flex: 3,
           ),
           Expanded(
