@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        myWebView.loadUrl("https://hpalnickel.net/landing");
+        myWebView.loadUrl("https://scanqr.org");
 
         Button captureButton = findViewById(R.id.captureButton);
         captureButton.setOnClickListener(v -> {
